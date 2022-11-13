@@ -21,13 +21,13 @@
   width: 30%;
 }
 
+.none {
+  display: none;
+}
+
 .footer__icon-box--div {
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-.none {
-  display: none;
 }

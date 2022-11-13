@@ -1,1 +1,34 @@
 @import "./reset.css";
+@import "./reset.css";
+
+.footer__container {
+  width: 100%;
+  height: 60px;
+  background-color: #dedede;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer__content-box--div {
+  width: 59.57%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__content-box--div > a {
+  width: 30%;
+}
+
+.none {
+  display: none;
+}
+
+.footer__icon-box--div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
