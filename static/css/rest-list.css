@@ -1,5 +1,128 @@
 @import "./reset.css";
 
+.main__container {
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
+}
+
+.category-container {
+  width: 100%;
+  height: 163px;
+  margin-top: 10px;
+  background-color: #fff;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.16);
+}
+
+.category__item-box {
+  width: 20%;
+  height: 50%;
+  float: left;
+}
+
+.category__img-box {
+  width: 100%;
+  height: 72%;
+  display: flex;
+}
+
+.category__img {
+  margin: auto;
+}
+
+.category__item-box > p {
+  width: 100%;
+  height: 28%;
+  text-align: center;
+  font-size: 0.813rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.rest__container {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.rest__item {
+  width: 85.74%;
+  height: 225px;
+  margin: auto;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+}
+
+.rest__img-box {
+  width: 100%;
+  height: 75%;
+  border-radius: 10px 10px 0 0;
+  float: left;
+}
+
+.rest__img-1 {
+  width: 77%;
+  height: 100%;
+  border-radius: 10px 0 0 0;
+  float: left;
+  background-image: url("../../static/images/rest-list/rest-1.png");
+  background-size: cover;
+}
+
+.rest__img-2 {
+  width: 22.88%;
+  height: 50%;
+  border-radius: 0 10px 0 0;
+  float: left;
+  background-image: url("../../static/images/rest-list/rest-2.png");
+  background-size: cover;
+}
+.rest__img-3 {
+  width: 22.88%;
+  height: 50%;
+  float: left;
+  background-image: url("../../static/images/rest-list/rest-3.png");
+  background-size: cover;
+}
+
+.rest__text-box--div {
+  width: 50%;
+  height: 16%;
+  float: left;
+  margin: 10px 0 0 10px;
+}
+
+.rest__title--p {
+  font-size: 0.875rem;
+  font-weight: 800;
+}
+
+.rest__price-text--p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #767676;
+  line-height: 16px;
+  float: left;
+}
+
+.rest__price-number--p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #000;
+  line-height: 16px;
+  float: left;
+}
+
+.rest__distance--p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #000;
+  line-height: 16px;
+  float: left;
+}
+
 .footer__container {
   width: 100%;
   height: 60px;
